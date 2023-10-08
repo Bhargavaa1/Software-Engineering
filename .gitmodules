@@ -1,0 +1,3 @@
+[submodule "C++/CS70Textbook"]
+	path = C++/CS70Textbook
+	url = git@github.com:cs70-grutoring/CS70Textbook.git
