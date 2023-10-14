@@ -1,3 +1,5 @@
 asyncio is a library to write concurrrent code using the async/await syntax
 asyncio provdies a set of high-level APIs such as Runners, Coroutines and Tasks, Streams, Synchronization Primitives, Subprocesses, Queues, and Exceptions
 asyncio also provides a set of low-level APIs such as Event Loop, Futures, Transports and Protocols, Policies, Platform Support, Extending
+
+The event loop is the core of every asyncio application. Event loops run asynchronous tasks amd callbacks, perform network IO operations, and run subprocesses.
