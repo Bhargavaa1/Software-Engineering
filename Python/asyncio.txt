@@ -1,5 +1,21 @@
-asyncio is a library to write concurrrent code using the async/await syntax
-asyncio provdies a set of high-level APIs such as Runners, Coroutines and Tasks, Streams, Synchronization Primitives, Subprocesses, Queues, and Exceptions
-asyncio also provides a set of low-level APIs such as Event Loop, Futures, Transports and Protocols, Policies, Platform Support, Extending
+Synchronous Programming- In programming, we can simplify the definition of synchronous code such as a "bunch of statements in sequences": so each statement in your code is executed one afer the other. This means each statement has to wait for the previous one to finish executing.
+Asynchronous Programming refers to the occurrence of events independent of the main program flow and ways to deal with such events.
+Coroutines are computer program components that generalize subroutines for non-preemptive multitasking, by allowing execution to be suspended and resumed.
+Async event-loop is a programming construct or design pattern that waits for and dispatches events or messages in a program
 
-The event loop is the core of every asyncio application. Event loops run asynchronous tasks amd callbacks, perform network IO operations, and run subprocesses.
+``` 
+import asyncio
+
+# async is a wrapper on a function that creates a coroutine object and allows us to program asynchronously
+async def main():
+  print('Bills Mafia')
+  await foo('text')
+
+# to use the await keyword it must be inside an async function and is used to run a corountine object
+async def foo(text):
+  print(text)
+  await asyncio.sleep(1)
+
+# asyncio.run is an event loop
+asyncio.run(main())
+
