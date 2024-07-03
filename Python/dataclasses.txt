@@ -1,8 +1,0 @@
-from dataclasses import dataclass
-
-@dataclass
-class Person:
-  name: str
-  address: str
-  active: bool = True
-  email_addresses: field(default_factory
