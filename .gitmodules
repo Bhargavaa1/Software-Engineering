@@ -1,7 +1,4 @@
 [submodule "C++/CS70Textbook"]
   path = C++/CS70Textbook
   url = git@github.com:cs70-grutoring/CS70Textbook.git
-[submodule "RECRUITING/Technical Interview/LeetCode"]
-  path = RECRUITING/Technical Interview/LeetCode
-  url = https://github.com/Bhargavaa1/LeetCode
 
