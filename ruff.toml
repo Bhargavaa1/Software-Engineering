@@ -1,5 +1,0 @@
-line-length = 200
-indent-width = 2
-[format]
-skip-magic-trailing-comma = true
-
